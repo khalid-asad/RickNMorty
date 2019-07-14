@@ -9,15 +9,41 @@
 import SwiftUI
 
 struct ContentView : View {
+    
+    var episodes: [Episode] = []
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List(episodes) { episode in
+                EpisodeCell(episode: episode)
+            }
+            .navigationBarTitle(Text("Episodes"))
+        }
     }
 }
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(episodes: testData)
     }
 }
 #endif
+
+struct EpisodeCell : View {
+    var episode: Episode
+    var body: some View {
+        return NavigationButton(destination: EpisodeDetails(episode: episode.episode, name: episode.name, airDate: episode.airDate, characters: episode.characters)) {
+            VStack(alignment: .leading) {
+                HStack {
+                    Text(episode.episode)
+                        .font(.headline)
+                        Text(episode.name)
+                            .font(.headline)
+                    }
+                    Text(episode.airDate)
+                        .font(.subheadline)
+                        .color(.gray)
+                }
+            }
+        }
+    }

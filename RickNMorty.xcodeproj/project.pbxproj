@@ -14,6 +14,9 @@
 		30F4AE4622DAC2C10053B8B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F4AE4522DAC2C10053B8B3 /* Preview Assets.xcassets */; };
 		30F4AE4922DAC2C10053B8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F4AE4722DAC2C10053B8B3 /* LaunchScreen.storyboard */; };
 		30F4AE5422DAC2C10053B8B3 /* RickNMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4AE5322DAC2C10053B8B3 /* RickNMortyTests.swift */; };
+		30F4AE5F22DAC6130053B8B3 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4AE5E22DAC6130053B8B3 /* Episode.swift */; };
+		30F4AE6122DAC8810053B8B3 /* EpisodeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4AE6022DAC8810053B8B3 /* EpisodeDetails.swift */; };
+		30F4AE6322DACEC40053B8B3 /* CharacterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4AE6222DACEC40053B8B3 /* CharacterDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		30F4AE4F22DAC2C10053B8B3 /* RickNMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickNMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F4AE5322DAC2C10053B8B3 /* RickNMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickNMortyTests.swift; sourceTree = "<group>"; };
 		30F4AE5522DAC2C10053B8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F4AE5E22DAC6130053B8B3 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		30F4AE6022DAC8810053B8B3 /* EpisodeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetails.swift; sourceTree = "<group>"; };
+		30F4AE6222DACEC40053B8B3 /* CharacterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				30F4AE4722DAC2C10053B8B3 /* LaunchScreen.storyboard */,
 				30F4AE4A22DAC2C10053B8B3 /* Info.plist */,
 				30F4AE4422DAC2C10053B8B3 /* Preview Content */,
+				30F4AE5E22DAC6130053B8B3 /* Episode.swift */,
+				30F4AE6022DAC8810053B8B3 /* EpisodeDetails.swift */,
+				30F4AE6222DACEC40053B8B3 /* CharacterDetails.swift */,
 			);
 			path = RickNMorty;
 			sourceTree = "<group>";
@@ -209,6 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F4AE3D22DAC2BF0053B8B3 /* AppDelegate.swift in Sources */,
+				30F4AE6122DAC8810053B8B3 /* EpisodeDetails.swift in Sources */,
+				30F4AE6322DACEC40053B8B3 /* CharacterDetails.swift in Sources */,
+				30F4AE5F22DAC6130053B8B3 /* Episode.swift in Sources */,
 				30F4AE3F22DAC2BF0053B8B3 /* SceneDelegate.swift in Sources */,
 				30F4AE4122DAC2BF0053B8B3 /* ContentView.swift in Sources */,
 			);
